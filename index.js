@@ -17,6 +17,12 @@ app.get('/posts', (req, res) => {
     res.json(posts)
 })
 
+app.post('/postTest', (req, res) => {
+    res.json({
+        "message" : "Hello World"
+    })
+})
+
 app.get('/', (req, res) => {
     res.send('Api is runnning now.')
 })
