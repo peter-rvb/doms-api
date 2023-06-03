@@ -18,9 +18,14 @@ app.get('/posts', (req, res) => {
 })
 
 app.post('/postTest', (req, res) => {
+
+    /*
     res.json({
         "message" : "Hello World"
     })
+    */
+
+    res.json(req.body)
 })
 
 app.get('/', (req, res) => {
