@@ -30,7 +30,8 @@ router.post('/', (req, res) => {
 
     console.log(`RESULT: ${result}`)
 
-    res.send(result.toString())
+    //res.send(result.toString())
+    res.json({ "result" : result })
 })
 
 // DYNAMIC ROUTE

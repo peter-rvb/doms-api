@@ -17,14 +17,8 @@ app.get('/posts', (req, res) => {
     res.json(posts)
 })
 
+// THIS WORKS OMG
 app.post('/postTest', (req, res) => {
-
-    /*
-    res.json({
-        "message" : "Hello World"
-    })
-    */
-
     res.json(req.body)
 })
 
