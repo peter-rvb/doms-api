@@ -7,7 +7,7 @@ app.get('/posts', (req, res) => {
 })
 
 app.get('/', (req, res) => {
-    res.send('Api is runnning.')
+    res.send('Api is runnning now.')
 })
 
 
